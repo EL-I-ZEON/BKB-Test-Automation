@@ -15,8 +15,8 @@ public class    LoginSteps {
 
     @Given("the user navigates to the BKB homepage")
     public void the_user_navigates_to_the_BKB_homepage() {
-        // Set up ChromeDriver (make sure you have chromedriver in your PATH)
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        System.out.println("Setting up ChromeDriver...");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.bkb.ch/");

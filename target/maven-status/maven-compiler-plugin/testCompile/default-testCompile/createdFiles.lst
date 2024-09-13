@@ -1,3 +1,4 @@
+stepdefs\TestRunner.class
 helpers\CalculatorHelper.class
 stepdefs\ThenResultIsAsExpected.class
 stepdefs\LoginSteps.class
