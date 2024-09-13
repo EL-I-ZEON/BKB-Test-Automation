@@ -41,14 +41,14 @@ public class    LoginSteps {
         loginButton.click();
     }
 
-    @And("the user enters {string} as Identifikationsnummer")
-    public void the_user_enters_identifikationsnummer(String identNumber) {
+    @And("the user enters {string} as Identification number")
+    public void the_user_enters_id_number(String idNumber) {
         WebElement identInput = driver.findElement(By.id("ident-input-id")); // Replace with actual ID
-        identInput.sendKeys(identNumber);
+        identInput.sendKeys(idNumber);
     }
 
-    @And("the user enters {string} as Passwort")
-    public void the_user_enters_passwort(String password) {
+    @And("the user enters {string} as Password")
+    public void the_user_enters_password(String password) {
         WebElement passInput = driver.findElement(By.id("password-input-id")); // Replace with actual ID
         passInput.sendKeys(password);
     }
