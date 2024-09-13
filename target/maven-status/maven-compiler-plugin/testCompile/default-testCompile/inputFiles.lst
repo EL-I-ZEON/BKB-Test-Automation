@@ -1,0 +1,5 @@
+D:\_Java Projects\BKB-Test-Automation\src\test\java\helpers\CalculatorHelper.java
+D:\_Java Projects\BKB-Test-Automation\src\test\java\PrimeGapTest.java
+D:\_Java Projects\BKB-Test-Automation\src\test\java\stepdefs\GivenUserOpensCalculator.java
+D:\_Java Projects\BKB-Test-Automation\src\test\java\stepdefs\ThenResultIsAsExpected.java
+D:\_Java Projects\BKB-Test-Automation\src\test\java\stepdefs\WhenUserPressesOperation.java
