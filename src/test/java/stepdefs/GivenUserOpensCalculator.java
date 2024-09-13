@@ -7,7 +7,7 @@ import java.net.URL;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class GivenUserOpensCalculator {
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     @Given("the user opens the system calculator")
     public void openCalculator() throws Exception {

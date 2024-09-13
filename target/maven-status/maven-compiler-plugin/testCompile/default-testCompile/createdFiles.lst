@@ -1,5 +1,7 @@
 helpers\CalculatorHelper.class
-PrimeGapTest.class
 stepdefs\ThenResultIsAsExpected.class
+stepdefs\LoginSteps.class
 stepdefs\GivenUserOpensCalculator.class
+PrimeGapTest.class
+stepdefs\ReadCredentials.class
 stepdefs\WhenUserPressesOperation.class
